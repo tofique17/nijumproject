@@ -3,6 +3,7 @@ html{
     padding:0;
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
+    background-color:rgba(248, 187, 131, 0.23);
 }
 
 header{
@@ -11,8 +12,6 @@ header{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    
-    
 }
 
 .logoheader h1{
@@ -37,15 +36,106 @@ header ul li{
 header ul li a{
     text-decoration: none;
     font-size: 1rem;
+    font-weight: 700;
     color:black;
 }
 
 .absolutebckgrnd{
-    width: 400px;
-    height: 100px;
+    width: 290px;
+    height: 80px;
     background-color: #FF926B;
     position: absolute;
     z-index: -1;
     top:-10px;
     right: 0px;
+}
+
+.featureweprovide{
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.box{
+    width: 300px;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+
+.box h1{
+    font-size: 1rem;
+}
+
+.box h2{
+    font-size: 0.8rem;
+    color:gray;
+}
+
+.box .photo{
+    background-color:rgba(255, 146, 107, 1);
+    display:block;
+    padding: 0.5em;
+    margin-right: 1rem;
+    margin:1rem;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.featureweprovide #basliq{
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.featureweprovide #basliq2{
+font-size: 1rem;
+font-weight: 200;
+display: inline-block;
+}
+
+.steptwo{
+    width: 100vw;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+.digital{
+    padding-left:2rem;
+    align-self: center;
+    margin-top:-20px;
+}
+
+.digital h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.digital h2{
+    font-size: 1rem;
+    font-weight: 200;
+    
+}
+
+.digitalphoto{
+    display: inline-block;
+    margin-top: -20px;
+}
+
+.digital a{
+    text-decoration: none;
+    background-color:rgba(255, 146, 107, 1) ;
+    color:white;
+    padding:1em;
 }
