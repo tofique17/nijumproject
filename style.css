@@ -6,6 +6,10 @@ html{
     background-color:rgba(248, 187, 131, 0.23);
 }
 
+body{
+    overscroll-behavior-x: none;
+    overflow-x: none;
+}
 header{
     width: 100vw;
     display:flex;
@@ -60,19 +64,20 @@ header ul li a{
 }
 
 .box{
-    width: 300px;
+    width: 340px;
     background-color: white;
     display: flex;
     box-sizing: border-box;
     margin-bottom: 20px;
+    cursor: pointer;
 }
 
 
-.box h1{
+.box h3{
     font-size: 1rem;
 }
 
-.box h2{
+.box h4{
     font-size: 0.8rem;
     color:gray;
 }
@@ -86,18 +91,20 @@ header ul li a{
 }
 
 .container{
+    height: auto;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    align-items: space-evenly;
 }
 
-.featureweprovide #basliq{
+.basliq{
     font-size: 1.5rem;
     font-weight: 900;
     display: inline-block;
 }
 
-.featureweprovide #basliq2{
+.basliq2{
 font-size: 1rem;
 font-weight: 200;
 display: inline-block;
@@ -117,12 +124,12 @@ display: inline-block;
     margin-top:-20px;
 }
 
-.digital h1{
+.digital h2{
     font-size: 2rem;
     font-weight: 700;
 }
 
-.digital h2{
+.digital h3{
     font-size: 1rem;
     font-weight: 200;
     
@@ -135,7 +142,109 @@ display: inline-block;
 
 .digital a{
     text-decoration: none;
+    display: inline-block;
     background-color:rgba(255, 146, 107, 1) ;
     color:white;
     padding:1em;
+    margin-top: 1rem;
+}
+
+.digital img{
+    padding-top: 1rem;
+}
+
+.standout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.photomixedbox{
+    width: 250px;
+    height: 320px;
+    background-image: url(./Mask\ Group.svg);
+    background-size:cover;
+    background-color:rgba(235, 99, 131, 1) ;
+}
+
+.marketing{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.marketing h2{
+    font-size: 1.4rem;
+}
+
+.marketing p{
+    font-size: 0.7rem;
+}
+
+.marketing a{
+    color:black;
+    font-size: 0.9rem;
+}
+
+.content{
+    box-sizing: border-box;
+    padding-left: 1.4rem;
+    padding-top: 2rem;
+}
+  
+
+.photomixedbox2{
+    width: 250px;
+    height: 320px;
+    background-image: url(./Mask\ Group\ \(1\).svg);
+    background-size:cover;
+    background-color:rgba(38, 231, 161, 1) ;
+}
+
+.photomixedbox3{
+    width: 400px;
+    height: 200px;
+    background-image: url(./Mask\ Group\ \(2\).svg);
+    background-size:cover;
+    background-color: rgba(255, 195, 139, 1);
+    margin-top: 1.3rem;
+}
+
+#differentp{
+    width: 190px;
+}
+
+.someresults{
+    margin-top: 2rem;
+    background-color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+.triple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding-top: 2rem;
+}
+
+.triple img{
+    width: 32px;
+    height: 32px;
+}
+
+.triple a{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+    color:rgba(235, 99, 131, 1);
+}
+
+.triple h3{
+    font: 0.7rem;
+    color: gray;
 }
