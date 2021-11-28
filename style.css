@@ -1,12 +1,13 @@
 html{
-    margin:0;
-    padding:0;
+    
     font-size: 62.5%;
     font-family: 'Open Sans', sans-serif;
     background-color:rgba(248, 187, 131, 0.23);
 }
 
 body{
+    margin:0;
+    padding:0;
     overscroll-behavior-x: none;
     overflow-x: none;
 }
@@ -19,7 +20,7 @@ header{
 }
 
 .logoheader h1{
-    font-size: 2rem;
+    font-size: 2.6rem;
     padding-left: 2rem;
 }
 .logoheader h1::before{
@@ -39,23 +40,22 @@ header ul li{
 
 header ul li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color:black;
 }
 
 .absolutebckgrnd{
-    width: 290px;
-    height: 80px;
+    width: 380px;
+    height: 90px;
     background-color: #FF926B;
     position: absolute;
     z-index: -1;
     top:-10px;
-    right: 0px;
+    right: -1.1rem;
 }
 
 .featureweprovide{
-    width: 100vw;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@ header ul li a{
 }
 
 .box{
-    width: 340px;
+    width: 400px;
     background-color: white;
     display: flex;
     box-sizing: border-box;
@@ -74,24 +74,24 @@ header ul li a{
 
 
 .box h3{
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .box h4{
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     color:gray;
 }
 
 .box .photo{
     background-color:rgba(255, 146, 107, 1);
     display:block;
-    padding: 0.5em;
+    padding: 1.3em;
     margin-right: 1rem;
     margin:1rem;
 }
 
 .container{
-    height: auto;
+    width: 80%;
     display:flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -99,23 +99,27 @@ header ul li a{
 }
 
 .basliq{
-    font-size: 1.5rem;
+    font-size: 2.2rem;
     font-weight: 900;
     display: inline-block;
 }
 
 .basliq2{
-font-size: 1rem;
+font-size: 1.8rem;
 font-weight: 200;
 display: inline-block;
 }
 
 .steptwo{
+    padding:0;
+    margin-top: 0.9rem;
     width: 100vw;
     display:flex;
     justify-content: space-between;
-    align-items: flex-start;
-    
+}
+
+.digitalphoto{
+    padding-right: -2rem;
 }
 
 .digital{
@@ -125,26 +129,24 @@ display: inline-block;
 }
 
 .digital h2{
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: 700;
 }
 
 .digital h3{
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: 200;
     
 }
 
-.digitalphoto{
-    display: inline-block;
-    margin-top: -20px;
-}
+
 
 .digital a{
     text-decoration: none;
     display: inline-block;
     background-color:rgba(255, 146, 107, 1) ;
     color:white;
+    font-size: 1.8em;
     padding:1em;
     margin-top: 1rem;
 }
@@ -180,12 +182,12 @@ display: inline-block;
 }
 
 .marketing p{
-    font-size: 0.7rem;
+    font-size: 1.1rem;
 }
 
 .marketing a{
     color:black;
-    font-size: 0.9rem;
+    font-size: 1.4rem;
 }
 
 .content{
